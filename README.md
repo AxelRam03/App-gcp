@@ -1,29 +1,29 @@
-# TechQuest — Professional Cloud Developer — 10/10
+# TechQuest — Preparación para Professional Cloud Developer
 
-MVP/PWA de entrenamiento móvil-first construido sobre la versión corregida.
+Aplicación web progresiva (PWA) orientada a practicar objetivos de aprendizaje para la certificación Google Cloud Professional Cloud Developer. Las preguntas son material de práctica y no son preguntas reales ni una predicción del resultado del examen.
 
-## Incluye
-- 160 preguntas de práctica (40 por dominio).
-- Dificultad Básico/Intermedio/Avanzado.
-- Distribución por los 4 dominios de la guía oficial.
-- Motor adaptativo: repaso de errores + priorización de debilidades.
-- XP con recompensa reducida para preguntas ya dominadas.
-- Racha diaria.
-- Bosses cada 10 misiones.
-- Simulador de 60 preguntas con temporizador de 2 horas.
-- Resultado por simulador y advertencia de que el índice no predice el examen real.
-- PWA/offline.
-- Progreso local.
-- Diseño móvil para iPhone.
+## Funcionalidades
+- Banco de preguntas organizado por dominios y niveles de dificultad.
+- Repaso de errores y priorización de áreas de oportunidad.
+- Simulador cronometrado y resumen del desempeño.
+- Seguimiento local del progreso y racha de práctica.
+- Diseño mobile-first y soporte PWA/offline.
 
-## Dominios
-D1 ~32% · D2 ~23% · D3 ~24% · D4 ~21% según la guía oficial vigente consultada.
+## Tecnologías y archivos
+- HTML, CSS y JavaScript.
+- `manifest.json` para metadatos de instalación.
+- `service-worker.js` para capacidades offline.
+- `app.js` para la lógica principal.
 
-## Importante
-Las preguntas son material de práctica generado a partir de objetivos de la guía. NO son preguntas reales del examen, no son dumps y no deben interpretarse como una filtración.
+## Ejecutar localmente
+Sirve la carpeta mediante un servidor HTTP local. El Service Worker requiere un contexto seguro (HTTPS o localhost) para funcionar correctamente.
 
-## Uso
-Abrir mediante un servidor estático/HTTPS para que el Service Worker pueda instalarse. En iPhone: Safari → Compartir → Añadir a pantalla de inicio.
+## Verificaciones antes de publicar
+- [ ] Probar el flujo de práctica y el simulador en móvil y escritorio.
+- [ ] Validar las preguntas frente a la guía oficial vigente.
+- [ ] Verificar que el progreso se explique como almacenamiento local.
+- [ ] Revisar accesibilidad, rendimiento y comportamiento sin conexión.
+- [ ] No incluir dumps, preguntas confidenciales ni afirmaciones de garantía de aprobación.
 
-## Próxima evolución recomendada
-Importar tus materiales personales del curso/Qwiklabs, añadir laboratorios reales y un backend seguro para sincronizar entre dispositivos.
+## Alcance
+Es una herramienta de estudio independiente, no un producto oficial de Google Cloud. Consulta la guía oficial de certificación para conocer los objetivos vigentes.
